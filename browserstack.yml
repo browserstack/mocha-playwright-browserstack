@@ -19,7 +19,7 @@ platforms:
 parallelsPerPlatform: 1
 browserstackAutomation: true
 browserstackLocal: true
-source: mocha-playwright-browserstack:sample-sdk:v1.0
+source: mocha:sample-sdk:v1.0
 testObservability: true
 debug: false
 networkLogs: false
