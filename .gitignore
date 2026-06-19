@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Logs
+log/
+logs/
+*.log
+local.log
+npm-debug.log*
+
+# Environment
+.env
+.env.*
+
+# BrowserStack SDK artifacts
+.browserstack/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+node_modules
+.venv
+venv
+__pycache__
+bin/
+obj/
+target/
+.pytest_cache

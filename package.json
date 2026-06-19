@@ -1,0 +1,28 @@
+{
+  "name": "mocha-playwright-browserstack",
+  "version": "1.0.0",
+  "description": "Playwright examples for Mocha and BrowserStack Automate",
+  "scripts": {
+    "test": "npx browserstack-node-sdk mocha tests/*.js --timeout=60000",
+    "sample-test": "npx browserstack-node-sdk mocha tests/sample_test.js --timeout=60000",
+    "sample-local-test": "npx browserstack-node-sdk mocha tests/sample_local_test.js --timeout=60000"
+  },
+  "keywords": [
+    "mocha",
+    "playwright",
+    "browserstack",
+    "automate",
+    "examples"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserstack-local": "^1.5.6",
+    "selenium-webdriver": "4.28.1"
+  },
+  "devDependencies": {
+    "browserstack-node-sdk": "1.49.3",
+    "mocha": "^10.7.3",
+    "@playwright/test": "1.55.0"
+  }
+}
